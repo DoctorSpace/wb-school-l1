@@ -1,0 +1,10 @@
+.root {
+  max-width: 1400px;
+
+  margin: 0 auto;
+}
+
+:root {
+  --background: #f2e9d8;
+  --second: #406473;
+}
