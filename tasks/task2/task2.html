@@ -2,18 +2,26 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="icon" href="../../src/img/icon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Задание 2</title>
     <link rel="stylesheet" href="./../../src/pages/index.css" />
   </head>
   <body>
     <header>
-        <div class="header__row">
-          <a href="./../../index.html"><img src="./../../src/img/home.svg" /></a>
-          <a href="./../task3/index.html" class="buttonNext">Next Task</a>
-        </div>
+      <div class="header__row">
+        <a href="./../../index.html"><img src="./../../src/img/home.svg" /></a>
+        <a href="./../task3/task3.html" class="buttonNext">Next Task</a>
+      </div>
     </header>
 
+    <section>
+      <h4>Проверка на странное число</h4>
+      <p>Странное число: 6 = 3 + 2 + 1 (true)</p>
+      <p>Обычное число: 10 = 5 + 2 + 1 (false)</p>
+      <input type="number" class="coolInput" id="input" placeholder="Введите число"/>
+      <button class="coolButton" id="btn">Проверить</button>
+    </section>
 
     <script src="task2.js" type="module"></script>
   </body>

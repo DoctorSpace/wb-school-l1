@@ -1,0 +1,22 @@
+.coolForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap:16px;
+}
+
+.coolForm div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    gap:4px;
+}
+
+.coolForm div label{
+    opacity: 0.4;
+}
+

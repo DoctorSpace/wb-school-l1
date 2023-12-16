@@ -1,0 +1,26 @@
+.coolTable {
+  width: 100%;
+  table-layout: fixed;
+}
+
+.coolTable th{
+    height: 32px;
+    color: #fff;
+
+    cursor: pointer;
+
+    font-size: 14px;
+    font-weight: 400;
+    
+    background-color: var(--second);
+}
+
+.coolTable th:hover{
+    opacity: 0.9;
+}
+
+.coolTable td{
+    font-weight: 300;
+    color: var(--second);
+    border: 1px solid var(--second);
+ }

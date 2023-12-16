@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="../../src/img/icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Задание 25</title>
+    <link rel="stylesheet" href="./../../src/pages/index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header__row">
+        <a href="./../../index.html"><img src="./../../src/img/home.svg" /></a>
+        <a href="./../task26/task26.html" class="buttonNext">Next Task</a>
+      </div>
+    </header>
+
+    <section id="section">
+      <div class="content__row">
+        <div>
+          Цвет текста:
+          <input type="color" value="#f2e9d8" id="textColor" />
+        </div>
+        <div>
+          Цвет фона:
+          <input type="color" value="#406473" id="backgroundColor" />
+        </div>
+      </div>
+
+      <div class="content__row">
+        <div>
+          Внутренний Отступ (px):
+          <input class="coolInput" type="number" id="padding" />
+        </div>
+
+        <div>
+          Внешний Отступ (px):
+          <input class="coolInput" type="number" id="margin" />
+        </div>
+
+        <div>
+          Размер шрифта (px):
+          <input class="coolInput" type="number" id="fontSize" />
+        </div>
+      </div>
+
+      <div>
+        Введите текст:
+        <input class="coolInput" id="text" style="width: 96%;"/>
+      </div>
+
+      <button class="coolButton" id="btn">Добавить элемент</button>
+
+      <div id="content"></div>
+    </section>
+
+    <script src="task25.js" type="module"></script>
+  </body>
+</html>

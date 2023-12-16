@@ -3,11 +3,50 @@ content {
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(6, 1fr);
 
-  margin-top: 30px;
   gap: 20px;
 }
 
 content a {
-    text-decoration: none;
-    color: var(--second);
+  text-decoration: none;
+  color: var(--second);
+}
+
+.content__column {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.content__row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 20px;
+}
+
+@media (max-width: 1200px) {
+  content {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+
+    gap: 10px;
+  }
+}
+
+@media (max-width: 940px) {
+  content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 760px) {
+  content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 420px) {
+  content {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }

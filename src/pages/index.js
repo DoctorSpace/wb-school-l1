@@ -6,7 +6,7 @@ dataTasks.forEach((item) => {
 
   card.innerHTML = `
     <a href="./tasks/task${item.id}/task${item.id}.html">Задание ${item.id}</a>
-    <a href="#" class="card__github" target="_blank"><img src="./src/img/GitHub.svg" /></a>
+    <a href="https://github.com/DoctorSpace/wb-school-l1/tree/main/tasks/task${item.id}" class="card__github" target="_blank"><img src="./src/img/GitHub.svg" /></a>
     `;
 
   document.getElementById("content").appendChild(card);

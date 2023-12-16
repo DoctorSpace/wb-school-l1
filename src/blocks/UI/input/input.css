@@ -1,0 +1,12 @@
+.coolInput{
+
+    border: 2px solid var(--second);
+
+    padding: 8px;
+    color: var(--second);
+    background: var(--baground);
+
+    width: 380px;
+    border-radius: 10px;
+
+}

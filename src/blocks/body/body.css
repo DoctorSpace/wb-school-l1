@@ -1,4 +1,7 @@
 body {
+  position: relative;
   background-color: var(--background);
   font-family: 'Roboto';
+
+  height: 100vh;
 }

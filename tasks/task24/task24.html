@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="../../src/img/icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Задание 24</title>
+    <link rel="stylesheet" href="./../../src/pages/index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header__row">
+        <a href="./../../index.html"><img src="./../../src/img/home.svg" /></a>
+        <a href="./../task25/task25.html" class="buttonNext">Next Task</a>
+      </div>
+    </header>
+
+    <section>
+      <table class="coolTable">
+        <thead>
+          <tr>
+            <th id="fname" >First Name</th>
+            <th id="lname">Last Name</th>
+            <th id="tel">Telephone</th>
+            <th id="address">Address</th>
+            <th id="city">City</th>
+            <th id="state">State</th>
+            <th id="zip">ZIP</th>
+          </tr>
+        </thead>
+        <tbody id="tBody"></tbody>
+      </table>
+
+      <div class="content__row" style="justify-content: center; margin-bottom: 20px;">
+        <button class="coolButton"id="btnPrev">Prev</button>
+        <span style="color: var(--second);" id="pageNumber">1</span>
+        <button class="coolButton" id="btnNext">Next</button>
+      </div>
+    </section>
+
+    <script src="task24.js" type="module"></script>
+  </body>
+</html>

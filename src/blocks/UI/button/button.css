@@ -1,0 +1,12 @@
+.coolButton {
+  cursor: pointer;
+  height: 36px;
+
+  padding-left: 20px;
+  padding-right: 20px;
+
+  color: #fff;
+  border: 0;
+  border-radius: 10px;
+  background-color: var(--second);
+}

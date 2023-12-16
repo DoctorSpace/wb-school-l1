@@ -1,0 +1,68 @@
+.element {
+  height: 100px;
+  width: 100px;
+  background-color: aqua;
+  border: 2px solid black;
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.animated {
+  transition: all 0.5s;
+}
+
+.card__row {
+  margin-top: 300px;
+
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Bankcard {
+  position: absolute;
+  cursor: pointer;
+  width: 400px;
+  height: 200px;
+
+  border-radius: 20px;
+}
+
+.cardColor1 {
+  background-color: rgba(0, 255, 255, 1);
+}
+
+.cardColor2 {
+  background-color: rgba(255, 0, 0, 1);
+}
+
+.zIndexFront {
+  z-index: 4;
+}
+
+.zIndexBack {
+  z-index: 1;
+}
+
+.animatedUp {
+  transition: all 0.5s;
+  transform: translateY(-100px);
+}
+
+.positionDown {
+  transition: all 1s;
+  transform: translateY(26px);
+}
+
+.positionUp {
+  transition: all 1s;
+  transform: translateY(0px);
+}
+
+.scaleON {
+  transition: all 2s;
+  transform: scale(2);
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="../../src/img/icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Задание 13</title>
+    <link rel="stylesheet" href="./../../src/pages/index.css" />
+  </head>
+  <body>
+    <header>
+        <div class="header__row">
+          <a href="./../../index.html"><img src="./../../src/img/home.svg" /></a>
+          <a href="./../task14/task14.html" class="buttonNext">Next Task</a>
+        </div>
+    </header>
+
+    <section>
+      <div>
+        <h4>Прямоугольник</h4>
+        <input type="number" class="coolInput"  id="InputRectHeight" placeholder="Введите длинну прямоугольника">
+        <input type="number" class="coolInput"  id="InputRectWidth" placeholder="Введите длинну прямоугольника">
+
+        <button class="coolButton" id="btnRect">Вычислить</button>
+
+
+        <p>Площадь прямоугольника: <span id="textRectArea"></span></p>
+        <p>Периметр рямоугольника: <span id="textRectPerimeter"></span></p>
+      </div>
+
+      <div>
+        <h4>Круг</h4>
+        <input type="number" class="coolInput"  id="CircleInputRadius" placeholder="Введите радиус круга">
+
+        <button class="coolButton" id="btnCircle">Вычислить</button>
+
+        <p>Площадь круга: <span id="textCircleArea"></span></p>
+        <p>Периметр круга: <span id="textCirclePerimeter"></span></p>
+      </div>
+
+      <div>
+        <h4>Треугольник</h4>
+        <input type="number" class="coolInput"  id="TriangleInputSideA" placeholder="Введите длинну треугольника A">
+        <input type="number" class="coolInput"  id="TriangleInputSideB" placeholder="Введите длинну треугольника B">
+        <input type="number" class="coolInput"  id="TriangleInputSideC" placeholder="Введите длинну треугольника C">
+
+        <button class="coolButton" id="btnTriangle">Вычислить</button>
+
+        <p>Площадь треугольника: <span id="textTriangleArea"></span></p>
+        <p>Периметр треугольника: <span id="textTrianglePerimeter"></span></p>
+      </div>
+
+    </section>
+
+    <script src="task13.js" type="module"></script>
+  </body>
+</html>

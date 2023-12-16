@@ -10,7 +10,15 @@
 
   border-radius: 10px;
   background: rgba(64, 100, 115, 0.25);
-  backdrop-filter: blur(22.850000381469727px);
+  backdrop-filter: blur(23px);
+}
+
+.card:hover{
+
+  color: #fff;
+
+  background: rgba(92, 206, 255, 0.25);
+  backdrop-filter: blur(20px);
 }
 
 .card__github{

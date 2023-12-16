@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="../../src/img/icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Задание 28</title>
+    <link rel="stylesheet" href="./../../src/pages/index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header__row">
+        <a href="./../../index.html"><img src="./../../src/img/home.svg" /></a>
+        <a href="./../task29/task29.html" class="buttonNext">Next Task</a>
+      </div>
+    </header>
+
+    <section>
+
+      <template id="myTemplate">
+        <div class="block">
+          <h4 class="block__title">123</h4>
+          <p class="block__text">4352</p>
+        </div>
+      </template>
+
+
+        <div class="content__row">
+          <div>
+            Цвет текста:
+            <input type="color" value="#f2e9d8" id="setTextColor" />
+          </div>
+          <div>
+            Цвет фона:
+            <input type="color" value="#406473" id="setBackgroundColor" />
+          </div>
+        </div>
+
+        <div class="content__row">
+          <div>
+            <p>Введите Заголовок</p>
+            <input class="coolInput" type="text" id="setTitle" placeholder="Введите Заголовок..."/>
+          </div>
+          <div>
+            <p>Введите Текст</p>
+            <input class="coolInput" type="text" id="setText" placeholder="Введите Текст..."/>
+          </div>
+        </div>
+
+        <button class="coolButton"id ="btn">Добавить</button>
+
+      <div class="block__content" id="content"></div>
+    </section>
+
+    <script src="task28.js" type="module"></script>
+  </body>
+</html>

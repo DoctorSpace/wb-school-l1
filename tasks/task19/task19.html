@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="../../src/img/icon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Задание 19</title>
+    <link rel="stylesheet" href="./../../src/pages/index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header__row">
+        <a href="./../../index.html"><img src="./../../src/img/home.svg" /></a>
+        <a href="./../task21/task21.html" class="buttonNext">Next Task</a>
+      </div>
+    </header>
+
+    <section>
+      <h4>Виджет VK</h4>
+      <a href="https://vk.com/igm">Группа</a>
+
+      <p id="textCurrentSize"></p>
+
+      <div id="widget" class="widget">
+        <template id="post__emplate">
+          <div class="post__background">
+            <div class="post">
+              <p id="date" class="content__date"></p>
+              <p id="text" class="content__text"></p>
+              <content id="content" class="content"></content>
+              <div class="content__row textWhite">
+                <div class="content__btn">
+                  <span id="likes"></span>
+                  <button class="button-like"></button>
+                </div>
+                <div class="content__btn">
+                  <span id="coments"></span>
+                  <button class="button-coment"></button>
+                </div>
+                <div class="content__btn">
+                  <span id="reposts"></span>
+                  <button class="button-repost"></button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </template>
+        <div id="posts__container" class="posts__container"></div>
+      </div>
+    </section>
+
+    <script src="task19.js"></script>
+  </body>
+</html>

@@ -1,0 +1,156 @@
+.widget::-webkit-scrollbar {
+  width: 8px; /* ширина scrollbar */
+  padding-right: 2px;
+}
+.widget::-webkit-scrollbar-track{
+  border-radius: 0px 20px 20px 0px;
+  background: #222; /* цвет дорожки */
+}
+.widget::-webkit-scrollbar-thumb {
+  width: 4px;
+  height: 40px;
+  background: #ffffff;
+  border-radius: 20px; /* закругления плашки */
+  border: 2px solid #ffffff;
+}
+
+.widget {
+  position: absolute;
+
+  right: 30px;
+  bottom: 30px;
+
+  width: 310px;
+  height: 500px;
+  overflow-y: scroll;
+  margin: auto;
+
+  background-color: #141414;
+
+  border-radius: 10px;
+}
+
+.post__background{
+  display: flex;
+  padding: 0 10px;
+}
+
+.post_image-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 6px;
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 6px;
+}
+
+
+.post{
+  margin-top: 16px;
+
+  background-color:#222;
+  padding: 16px;
+  border-radius: 20px;
+  border: 2px solid #363738;
+
+  margin-bottom: 16px;
+}
+
+.widget_header {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.content__date{
+  font-size: 10px;
+  color: gray;
+  margin-bottom: 10px;
+}
+
+.content__text{
+  color: #fff;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: normal;
+  text-align:justify;
+  margin-bottom: 6px;
+}
+
+.content__img {
+  width: 246px;
+  max-width: 246px;
+}
+
+
+.content__video{
+  width: 246px;
+  max-width: 246px;
+}
+
+
+.buttons-row {
+  padding-left: 10px;
+
+  color: #fff;
+  font-size: 12px;
+
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.content__btn{
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.button-like {
+  border: none;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  padding: 0;
+  background-image: url(./img/heart.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.button-coment {
+  border: none;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  padding: 0;
+  background-image: url(./img/coment.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.button-repost{
+  border: none;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  background-color: transparent;
+  padding: 0;
+  background-image: url(./img/share.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.textWhite{
+  color: white;
+}
